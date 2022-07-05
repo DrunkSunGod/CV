@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!-- TELLS THE BROWSER THE VERSION OF HTML -->
+<html lang="en" dir="ltr">
+<!-- BETWEEN THIS OPEN AND CLOSED TAGS, HTML CODE IS ENCLOSED -->
+
+<head>
+  <!-- HTML DOCUMENTS CONSIST OF A HEAD AND A BODY -->
+  <meta charset="utf-8">
+  <!-- UTF-8 IS A CHARACTER SET THAT MAKES IT EASY TO INTERPRET LANGUAGES AND INCLUDES EMOJIS -->
+  <title> Apoorva's Personal Site</title>
+  <!-- TELLS THE TITLE TO THE BROWSER AND IS WRITTEN ON THE TOP OF IT -->
+</head>
+
+<body>
+  <!-- WE CAN ALSO USE TABLES FOR LAYOUT -->
+  <table cellspacing="20">
+    <!--THE CELLSPACING ATTRIBUTE DOES AS THE NAME SUGGESTS-->
+    <tr>
+      <td><img src="circulardp.png" alt="Apoorva Jha"></td>
+      <!-- THIS IS THE IMAGE ELEMENT WITH ATTRIBUTES SOURCE AND ALTERNATIVE TEXT. SOURCE CAN BE A URL OR AN IMAGE ADDRESS WITHIN THE SAME DIRECTORY AS YOUR HTML FILE.
+    ALT IS THE TEXT DISPLAYED IF THE BROWSER IS UNABLE TO RENDER YOUR IMAGE. ALT ATTRIBUTE HAS USES IN SEO. -->
+      <td>
+        <h1>Apoorva Jha</h1>
+        <!-- WRITE H1 AND HIT ENTER. ATOM COMPLETES THE TAG -->
+        <!-- INDENTING IS GOOD PROGRAMMING PRACTICE -->
+        <!-- BEAUTIFY PACKAGE INDENTS TEXT. SHORTCUT IS CTRL+ALT+B -->
+        <p>
+          <!-- THIS IS A PARAGRAPH TAG AND GROUPS TEXT INTO A PARAGRAPH -->
+          <em> Junior, <strong><a href="https://www.iitk.ac.in/">IIT Kanpur</a></strong></em>
+          <!-- THE ANCHOR TAG IS USED TO INCLUDE LINKS IN YOUR HTML DOCUMENT. THE HREF ATTRIBUTE IS USED TO SPECIFY THE LINK TO THE DESTINATION WHICH COULD BE A WEBSITE
+      OR ANOTHER HTML PAGE CREATED BY THE USER SAVED WITHIN THE SAME FOLDER AS THE PARENT PAGE -->
+          <!-- <I> IS THE ITALICS TAG BUT IT IS BETTER TO USE THE EM TAG AS IT CONFERS EMPHASIS.  -->
+          <!-- SIMILARLY INSTEAD OF THE BOLD TAG<B>, WE SHOULD USE THE <STRONG> TAG -->
+        </p>
+        <p>
+          I am a junior majoring in civil engineering. I am interested in humanities subjects such as economics, history, sociology etc.
+        </p>
+      </td>
+    </tr>
+
+  </table>
+
+
+
+  <hr size="4" />
+  <!-- THIS IS A TAG THAT ALLOWS A HORIZONTAL LINE ON THE PAGE. THE INFORMATION SUCH AS SIZE THAT COMES WITH THE TAG IS KNOWN AS THE ATTRIBUTE OF THE TAG. -->
+  <H3> Education</H3>
+  <ul>
+    <!-- UL IS AN UNORDERED LIST -->
+    <li><strong>Indian Institute of Technology, Kanpur(2020-2024)</strong><br />B.tech, Civil Engineering(7.1/10)</li>
+    <br>
+    <li><strong>GVN The Global School, Bhopal(2020)</strong><br />CBSE XII(93.2%)</li>
+    <br>
+    <li><strong>Campion School Bhopal(2018)</strong><br />CBSE X(90.8%)</li>
+  </ul>
+  <h3>Positions of Responsibility</h3 <!-- GIVEN BELOW IS THE TABLE ELEMENT WHICH IS USED TO CREATE TABLES. THE SUB ATTRIBUTES ARE TABLEROW TR, TABLECELL TD, TABLE HEAD TH, TABLE FOOT TF ETC. -->
+  <!-- ALTHOUGH TH TAG CAN BE USED SEPERATELY, IT IS RECOMMENDED TO KEEP THE CODE IN SECTIONS SO THAT IT BECOMES EASIER TO WORK WITH IT IN ISOLATION
+    LATER USING CSS OR JAVASCRIPT -->
+  <!-- THERE ARE NO TABLE COLUMNS -->
+
+  <table CELLSPACING="30">
+    <!-- THE BORDER ATTRIBUTE IS USED TO DRAW MARGINS BUT WE BETTER USE CSS FOR IT -->
+    <thead>
+      <!--HEADER SECTION OF THE TABLE-->
+      <th>Timeline</th>
+      <th>Position Held</th>
+    </thead>
+
+    <tbody>
+      <!--BODY SECTION OF THE TABLE-->
+
+      <tr>
+        <td>May 2021-April 2022</td>
+        <td>Secretary, Film Club IITK</td>
+      </tr>
+      <tr>
+        <td>June 2021-May 2022</td>
+        <td>Secretary, Chess club IITK</td>
+      </tr>
+      <tr>
+        <td>July 2021-Present</td>
+        <td>Student Guide, Counselling Service IITK</td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- <ol> THIS IS AN ORDERED LIST
+  <li><strong>Indian Institute of Technology, Kanpur(2020-2024)</strong><br />B.tech, Civil Engineering(7.1/10)</li>
+  <br>
+  <li><strong>GVN The Global School, Bhopal(2020)</strong><br />CBSE XII(93.2%)</li>
+  <br>
+  <li><strong>Campion School Bhopal(2018)</strong><br />CBSE X(90.8%)</li>
+</ol> -->
+  <!-- LISTS CAN BE NESTED WITHIN ONE ANOTHER -->
+  <h3>Relevant Courses</h3>
+  <table cellspacing="20">
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <td>Multivariable Calculus</td>
+            <td>✨✨✨</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td>Fundamentals of Computing</td>
+            <td>✨✨✨✨</td>
+          </tr>
+        </table>
+        </td>
+    </tr>
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <td>Linear Algebra</td>
+            <td>✨✨</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td>Introduction to Electronics</td>
+            <td>✨✨✨</td>
+          </tr>
+        </table>
+        </td>
+    </tr>
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <td>Manufacturing Processes</td>
+            <td>✨✨✨✨✨</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td>Introduction to Indian Society</td>
+            <td>✨✨✨✨✨</td>
+          </tr>
+        </table>
+        </td>
+    </tr>
+  </table>
+
+  <h3>My Hobbies</h3>
+  <ol>
+    <li>Listening to music, singing and playing the guitar.</li>
+    <br>
+    <li>Playing chess on <a href="https://www.chess.com/member/apoorva_jha">chess.com</a> and losing 3000 games in a row before winning another 3000 to get nowhere.</li>
+    <br>
+    <li>Playing Badminton and running around the court in a chaotic manner to create magic.</li>
+  </ol>
+  <br>
+  <hr size="4">
+  <a href="contactme.html">Contact Me</a>
+  <!-- USING ANOTHER USERMADE FILE IN THE HREF ATTRIBUTE. -->
+
+</body>
+
+</html>
+<!-- CLOSING OF THE HTML TAG -->
